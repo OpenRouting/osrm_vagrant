@@ -1,0 +1,13 @@
+{
+  "name": "osrm",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "OSRM Service",
+  "override_attributes": {},
+  "run_list": [
+    "recipe[apt]",
+    "recipe[git]",
+    "recipe[osrm]",
+    "recipe[bmoregeo_osrm_service]"
+  ]
+}
