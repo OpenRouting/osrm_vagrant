@@ -19,9 +19,9 @@ SITE
 GIT
   remote: https://github.com/OpenRouting/osrm
   ref: master
-  sha: 7cafe8fc17cf6b8df859e18b273e3964dceb3f75
+  sha: 99a228834b2f864247c85f766fdad228d3c5e534
   specs:
-    osrm (0.3.3)
+    osrm (0.3.4)
 
 GIT
   remote: https://github.com/bmoregeo/osrm_chef_walking
