@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+
+# cookbook 'chef-client'
+
+# cookbook 'apache2', '>= 1.0.0'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
+
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'chef_handler'
+cookbook 'dmg'
+cookbook 'git'
+cookbook 'windows'
+cookbook 'yum'
+cookbook 'yum-epel'
+
+cookbook 'osrm',
+    :git => 'https://github.com/OpenRouting/osrm'
+
+cookbook 'osrm_chef_walking',
+    :git => 'https://github.com/bmoregeo/osrm_chef_walking'

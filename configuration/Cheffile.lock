@@ -1,0 +1,45 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+    build-essential (2.2.3)
+    chef_handler (1.2.0)
+    dmg (2.2.2)
+    git (4.2.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      windows (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    windows (1.37.0)
+      chef_handler (>= 0.0.0)
+    yum (3.6.1)
+    yum-epel (0.6.2)
+      yum (~> 3.2)
+
+GIT
+  remote: https://github.com/OpenRouting/osrm
+  ref: master
+  sha: 7cafe8fc17cf6b8df859e18b273e3964dceb3f75
+  specs:
+    osrm (0.3.3)
+
+GIT
+  remote: https://github.com/bmoregeo/osrm_chef_walking
+  ref: master
+  sha: 8a104a7994b2a8869f50722f5187a7edec342216
+  specs:
+    osrm_chef_walking (0.1.0)
+      osrm (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  build-essential (>= 0)
+  chef_handler (>= 0)
+  dmg (>= 0)
+  git (>= 0)
+  osrm (>= 0)
+  osrm_chef_walking (>= 0)
+  windows (>= 0)
+  yum (>= 0)
+  yum-epel (>= 0)
+

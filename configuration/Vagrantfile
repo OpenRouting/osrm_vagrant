@@ -56,7 +56,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # some recipes and/or roles.
   #
   config.vm.provision "chef_solo" do |chef|
-    chef.cookbooks_path = "../osrm_vm/cookbooks"
+    chef.cookbooks_path = "../osrm_vm/librarian_cookbooks"
     chef.roles_path = "../osrm_vm/roles"
     chef.data_bags_path = "../osrm_vm/data_bags"
     chef.add_role "osrm"
